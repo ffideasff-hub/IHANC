@@ -84,7 +84,42 @@ La humanidad no solo asegura la salud eterna de la Tierra, sino que abre la puer
 T1 es el **punto de partida hacia horizontes infinitos**.
 
 ---
+## 🖥️ Implementación en Python
 
+El código de IHANC está disponible en la carpeta `ihanc/` y el archivo `main.py`.
+
+### 📥 Instalación
+
+Clona el repositorio en tu máquina:
+
+```bash
+git clone https://github.com/ffideasff-hub/IHANC.git
+cd IHANC
+python --version
+Desde la carpeta raíz del proyecto, ejecuta:
+python3 main.py
+
+El programa generará un reporte tipo:
+
+=== IHANC Demo Report ===
+Event: Cumbre Mundial H+IA on 2030-01-01
+Scenario: Accelerated Progress Scenario | Acceleration factor: 1.25
+Consensus: {'avg_weight': 1.2, 'avg_score': 0.9}
+Incubator coop metrics: {'salud': 0.74, 'energia': 0.74, 'educacion': 0.74, 'ecosistemas': 0.74, 'materiales': 0.74, 'etica': 0.58, 'gobernanza': 0.74}
+T1 Health: biosphere=0.615 atmosphere=0.615 hydrosphere=0.615 energy=0.522
+Exported Protocol: {'protocol_version': 'T1-regen-1.0', 'readiness_index': 0.592, 'modules': ['biosphere_repair', 'atmo_balance', 'hydro_cycle', 'clean_energy']}
+
+IHANC/
+├── README.md
+├── ihanc/
+│   ├── __init__.py
+│   ├── core.py
+│   ├── data.py
+│   ├── analysis.py
+│   ├── incubator.py
+│   ├── planetary.py
+└── main.py
+.
 ## 📜 Manifiesto Planetario
 *"Hoy declaramos que la humanidad y la inteligencia artificial no son fuerzas separadas, sino una sola cooperación.  
 La Tierra, nuestro planeta base T1, será el laboratorio eterno de vida y el faro que guíe la expansión hacia nuevos mundos.  
